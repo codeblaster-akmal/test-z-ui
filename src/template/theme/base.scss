@@ -1,0 +1,241 @@
+.matTable {
+  .MuiPaper-elevation2 {
+    box-shadow: none;
+  }
+
+  .MuiPaper-root {
+    background-color: transparent;
+  }
+
+  tbody tr td:first-child {
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    text-align: left;
+  }
+
+  thead tr th:first-child {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    text-align: left;
+  }
+
+  thead tr th:nth-child(3) {
+    width: 20% !important;
+    text-align: center;
+  }
+
+  tbody tr td:nth-child(3) {
+    text-align: center;
+  }
+
+  thead tr th:nth-child(2) {
+    width: 50% !important;
+    text-align: left;
+  }
+
+  thead tr th:nth-child(4) {
+    text-align: center;
+  }
+
+  tbody tr td:nth-child(2) {
+    text-align: left;
+  }
+
+  tbody tr td:nth-child(4) {
+    text-align: center;
+  }
+
+  tbody tr td:last-child {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+  }
+
+  table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    width: 98%;
+    margin: auto;
+  }
+
+  tbody tr td {
+    margin: 0 0 0 0;
+    border: none !important;
+    background-color: #fafafa;
+  }
+  tbody tr:hover {
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.2);
+    -webkit-appearance: none;
+    cursor: pointer;
+  }
+
+  /*To work on the others browsers*/
+  tbody > tr:hover {
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.2);
+    -webkit-appearance: none;
+    cursor: pointer;
+  }
+
+  .MuiFormControl-root {
+    width: 100%;
+  }
+
+  tbody .MuiIconButton-root:hover {
+    background-color: transparent;
+    color: #39607f;
+  }
+
+  tfoot .MuiIconButton-root:hover {
+    background-color: rgba(255, 135, 142, 0.2);
+    color: #39607f;
+  }
+
+  tbody tr {
+    border-radius: 14px;
+  }
+
+  thead tr th {
+    border: none !important;
+    background-color: transparent;
+    padding: 2px 4px 2px 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .MuiToolbar-gutters {
+    display: none;
+  }
+
+  tfoot .MuiToolbar-gutters {
+    display: flex !important;
+  }
+
+  tfoot .MuiTableCell-root {
+    border: none !important;
+  }
+
+  .avatarLetters {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #39607f;
+    color: #ffffff;
+    padding: 10px 10px 10px 9px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .MuiSwitch-colorSecondary.Mui-checked {
+    color: #39607f !important;
+  }
+
+  .MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+    background-color: #39607f !important;
+  }
+
+  .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+    opacity: 0.2 !important;
+  }
+
+  .tooltip {
+    background-color: #39607f;
+    max-width: 500;
+    color: #000;
+  }
+}
+.app-content--inner__wrapper {
+  // background-color: #fff;
+  // padding: 1rem;
+  // border-radius: 1rem 0rem 0rem 0rem;
+  // box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+  //   rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+// .app-content--inner {
+//   margin-bottom: 3rem;
+// }
+
+.app-content--inner {
+  margin: 0rem 0 0 1rem;
+  background-color: #e7ecef;
+  padding: 0;
+  // overflow: auto;
+  // height: 100vh;
+  @media print {
+    margin: 0;
+  }
+  @media (max-width:800px) {
+  margin: 0rem 1rem;
+    
+  }
+}
+
+.muiPrimaryBtn {
+  // background-color: #39607F !important;
+  border-radius: 0px 25px 25px 25px !important;
+  padding: 8px 30px 8px 30px !important;
+  font-weight: 500 !important;
+  color: #ffffff !important;
+}
+
+.Toastify__toast {
+  border-radius: 8px !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 2px solid #39607f !important;
+}
+
+.matTitle {
+  width: 100%;
+  margin: auto;
+}
+
+.titleName {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+body {
+  background-color: #ffffff !important;
+  color: #333333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rajdhani";
+}
+li,
+p {
+  font-family: "Avenir Serif";
+}
+
+.matTooltip {
+  background-color: #39607f;
+}
+
+.app-content {
+  padding-top: 0 !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #39607f !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.inputCardCustom {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  background: #ffffff;
+  padding: 6px 20px 20px 17px;
+  border-radius: 14px;
+  margin-bottom: 2rem;
+}

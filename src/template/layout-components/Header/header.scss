@@ -1,0 +1,47 @@
+.header-custom {
+  .app-header {
+    box-shadow: none;
+    height: 4vh;
+    background-color: #e7ecef;
+  }
+  .app-header-logo {
+    height: 100%;
+    width: 12rem;
+    // padding-left: 0;
+  }
+  .headerUsericon {
+    width: 30px;
+    height: 30px;
+  }
+  .navbarIcons {
+    padding: 2%;
+    //    &:hover{
+    //     background-color: rgba(0, 0, 0, 0.04);
+    //     border-radius: 5px;
+    //    }
+  }
+  .navbarIconSize {
+    font-size: 1.3rem !important;
+    color: #eae7e7;
+  }
+  .MuiAppBar-positionFixed {
+    right: auto;
+  }
+  .app-header-toolbar {
+    flex: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+  }
+  @media (min-width: 1920px) {
+    .app-header {
+      box-shadow: none;
+      height: 4vh;
+    }
+  }
+  @media print {
+    display: none;
+  }
+}

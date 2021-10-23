@@ -1,0 +1,41 @@
+.sidebar-width-design {
+  .app-sidebar-item {
+    display: block !important;
+    padding: 1rem 0.2rem 0px 0.2rem !important;
+
+    &:active {
+      transition: all 0.2s ease !important;
+      color: #ffffff !important;
+    }
+  }
+
+  .app-sidebar-button-wrapper {
+    padding: 6px 0px !important;
+    color: #ffffff;
+  }
+  .app-sidebar-button {
+    display: contents !important;
+    padding: 0px !important;
+
+    &.active {
+      background: transparent !important;
+      color: #ffffff;
+    }
+
+    &:hover {
+      background-color: transparent !important;
+    }
+  }
+
+  .menu-title-font {
+    font-size: 13px;
+  }
+
+  .sidebar-expand-icon-rotate {
+    display: none;
+  }
+  .app-sidebar-button > span > div > .app-sidebar-icon {
+    font-size: 1.5rem;
+    color: hsl(205, 21%, 76%);
+  }
+}
